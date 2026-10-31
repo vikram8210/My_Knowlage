@@ -1,0 +1,20 @@
+#IDSelector{
+    color: red;
+}
+
+.classSelector{
+    color: aqua;
+}
+
+div1{
+    color: blue;
+}
+
+div2 , .div3{
+    color: chartreuse;
+}
+
+/* univarsal selector */
+*{
+    background-color: darkgrey;
+}

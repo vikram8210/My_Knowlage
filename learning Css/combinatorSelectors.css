@@ -1,0 +1,48 @@
+div p{
+    color: red;
+}
+
+div > q{
+    color: blue;
+}
+
+h3+p{
+    text-decoration: line-through;
+}
+
+h2 ~ p{
+    text-decoration:underline;
+}
+
+.hover :hover{
+    text-decoration:line-through;
+    background-color: rgb(193, 40, 232);
+}
+
+.active:active{
+    background-color: blue;
+}
+
+/* Content before heading */
+h1::before {
+    content: " ✌ ";
+    color: green;
+}
+
+/* Content after heading */
+h1::after {
+    content: " 👍";
+    color: red;
+}
+
+/* Style first letter */
+.letter::first-letter {
+    color: blue;
+    font-size: 35px;
+}
+
+/* Style first line */
+.letter::first-line {
+    color: green;
+    font-weight: bold;
+}
